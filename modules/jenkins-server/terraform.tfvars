@@ -1,4 +1,4 @@
-region            = "us-east-2"
+region            = "us-west-2"
 ami_id            = "ami-0e2c8caa4b6378d8c"
 instance_type     = "t2.medium"
 key_name          = "your-key-pair-name"
