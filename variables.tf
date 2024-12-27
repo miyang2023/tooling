@@ -1,7 +1,7 @@
 variable "ami_id" {
   description = "The AMI ID for the instances"
   type        = string
-  default     = "ami-0b8c6b923777519db"
+  default     = "ami-0e2c8caa4b6378d8c"
 }
 
 variable "instance_type" {
@@ -14,7 +14,7 @@ variable "instance_type" {
 variable "key_name" {
   description = "The key name for the instances"
   type        = string
-  default     = "DevOps_Train2024"
+  default     = "faby_Shopping2025"
 }
 
 ###########################
@@ -22,12 +22,12 @@ variable "key_name" {
 ##########################
 variable "security_group_id" {
   type    = string
-  default = "sg-07b8b3043804ede33"
+  default = "sg-0251628b6631e7e17"
 }
 
 # variable "subnet_id" {
 #   type    = string
-#   default = "subnet-036b6ddb502f8eb8a"
+#   default = "subnet-0b06f9c6f927d977e"
 # }
 
 # variable "security_group_id" {
@@ -41,7 +41,7 @@ variable "security_group_id" {
 variable "subnet_id" {
   description = "The subnet ID where the instance will be deployed"
   type        = string
-  default     = "subnet-0ea3d234fba84eef9"
+  default     = "subnet-0b06f9c6f927d977e"
 }
 
 # variable "db_name" {
@@ -72,13 +72,13 @@ variable "subnet_id" {
 # variable "db_subnet_group" {
 #   description = "The subnet group for the PostgreSQL database"
 #   type        = string
-#   default     = "default-vpc-08dcf780b5e752f2c"
+#   default     = "default-vpc-0c11f60a7c25c0fa8"
 # }
 
 variable "s3_bucket" {
   description = "The name of the S3 bucket for storing Terraform state"
   type        = string
-  default     = "terraform-state-bucket-fusi"
+  default     = "terraform-state-bucket-fabiola"
 }
 
 variable "dynamodb_table" {
